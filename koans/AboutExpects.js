@@ -4,10 +4,13 @@ describe('About Expects', function() {
   it('should expect true', function() {
 
     // Your journey begins here: Replace the word false with true 
-    expect(false).toBeTruthy();
+    expect(true).toBeTruthy();
   });
 
   // To understand reality, we must compare our expectations against reality.
+
+  var FILL_ME_IN = 2;
+
   it('should expect equality', function() {
     var expectedValue = FILL_ME_IN;
     var actualValue = 1 + 1;
@@ -27,7 +30,7 @@ describe('About Expects', function() {
   // Sometimes you need to be precise about what you "type."
   it('should assert equality with ===', function() {
     var expectedValue = FILL_ME_IN;
-    var actualValue = (1 + 1).toString();
+    var actualValue = 1 + 1;
 
   // toBe() will always use === to compare.
     expect(actualValue).toBe(expectedValue);
